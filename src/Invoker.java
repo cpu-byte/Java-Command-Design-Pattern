@@ -13,7 +13,9 @@ public class Invoker {
     public void undo() {
         try {
             if (history.size() == 1)
-                throw new Exception("No more to undo, at initial invoked command in history context.");
+                throw new Exception(
+                        "No more to undo, at initial " +
+                                "invoked command in history context.");
 
             // removing recently added command, i.e. performing .pop()
             this.history.remove(this.history.size() - 1);
