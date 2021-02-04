@@ -8,3 +8,7 @@ The `main()` method in the `Main` class includes an example where a biography is
 The image below shows how the design command pattern maps to the examples used in this repository.
 
 ![Example](Example.png)
+
+## License
+
+See LICENSE.md for more information.
